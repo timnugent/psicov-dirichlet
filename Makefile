@@ -20,7 +20,7 @@ psicov:
 	g++ $(CFLAGS) -c src/OrderSort.cc -o src/OrderSort.o
 	g++ $(CFLAGS) -c src/Regularizer.cc -o src/Regularizer.o
 	g++ $(CFLAGS) -c src/zfstream.cc -o src/zfstream.o
-	g++ $(CFLAGS) -o psicov_d src/*.o $(LIBS)
+	g++ $(CFLAGS) -o bin/psicov_d src/*.o $(LIBS)
 
 clean:
-	rm psicov_d src/*.o
+	rm bin/psicov_d src/*.o
