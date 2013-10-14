@@ -23,4 +23,4 @@ psicov:
 	g++ $(CFLAGS) -o psicov_d src/*.o $(LIBS)
 
 clean:
-	rm bin/psicov_d src/*.o
+	rm psicov_d src/*.o
